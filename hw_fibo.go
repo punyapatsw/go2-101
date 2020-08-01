@@ -7,10 +7,11 @@ func fibo() func() int {
 	pos1 := 0
 	return func() int {
 		if pos0 == 0 && pos1 == 0 {
-			defer func() {
-				pos1 = 1
-			}()
-			// return pos0
+			// defer func() {
+			// 	pos1 = 1
+			// }()
+			pos1 = 1
+			return pos0
 		}
 		tmp := pos0
 		pos0 = pos1
