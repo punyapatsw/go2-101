@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"named.go"
+	"named"
 )
 
 func main() {
