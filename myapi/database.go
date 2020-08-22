@@ -25,7 +25,6 @@ func init() {
 }
 
 func createTable() {
-	// export DATABASE_URL="postgres://virkwbvi:PaEiX5k0fVhbAJRjTECUYw4kngU9aAGe@john.db.elephantsql.com:5432/virkwbvi"
 	// url := os.Getenv("DATABASE_URL")
 	// db, err := sql.Open("postgres", url)
 
